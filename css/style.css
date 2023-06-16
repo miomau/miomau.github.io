@@ -1,0 +1,25 @@
+.card {
+    background-color: rgb(50,50,50) !important;
+    max-height: 60% !important;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02) !important;
+}
+
+.wrapper {
+    height: 100dvh;
+}
+
+.fa-brands {
+    transition-duration: 0.2s;
+}
+
+a:hover .fa-brands {
+    color: orange !important;
+}
+
+.letter {
+    transition-duration: 0.2s;
+}
