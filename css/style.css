@@ -60,37 +60,37 @@ a:hover .bi {
 .left-bar-1 {
     background-image: url('../img/svg-green.svg');
     top: -10vmax;
-    animation: leftbarimation 30s infinite;
+    animation: leftbarimation 60s infinite;
 }
 
 .left-bar-2 {
     background-image: url('../img/svg-yellow.svg');
     top: -5vmax;
-    animation: leftbarimation 30s infinite;
+    animation: leftbarimation 60s infinite;
 }
 
 .left-bar-3 {
     background-image: url('../img/svg-gray.svg');
     top: 0vmax;
-    animation: leftbarimation 30s infinite;
+    animation: leftbarimation 60s infinite;
 }
 
 .right-bar-1 {
     background-image: url('../img/svg-green.svg');
     top: -10vmax;
-    animation: rightbarimation 30s infinite;
+    animation: rightbarimation 60s infinite;
 }
 
 .right-bar-2 {
     background-image: url('../img/svg-yellow.svg');
     top: -5vmax;
-    animation: rightbarimation 30s infinite;
+    animation: rightbarimation 60s infinite;
 }
 
 .right-bar-3 {
     background-image: url('../img/svg-gray.svg');
     top: 0vmax;
-    animation: rightbarimation 30s infinite;
+    animation: rightbarimation 60s infinite;
 }
 
 @media only screen and (max-width: 800px) {
