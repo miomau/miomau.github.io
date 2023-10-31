@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 .card {
     background-color: rgb(50,50,50) !important;
     max-height: 60% !important;
@@ -12,11 +14,12 @@
     height: 100dvh;
 }
 
-.fa-brands {
+.bi {
     transition-duration: 0.2s;
+    color: white;
 }
 
-a:hover .fa-brands {
+a:hover .bi {
     color: orange !important;
 }
 
