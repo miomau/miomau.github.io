@@ -1,7 +1,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
+body {
+    background-color: #335C67 !important;
+    overflow: hidden;
+}
+
+* {
+    overflow: hidden !important;
+}
+
 .card {
-    background-color: rgb(50,50,50) !important;
+    background-color: #493B4F !important;
     max-height: 60% !important;
     transition-duration: 0.2s;
 }
@@ -25,4 +34,85 @@ a:hover .bi {
 
 .letter {
     transition-duration: 0.2s;
+}
+
+.bars {
+    height: 150vh;
+    width: 10vw;
+}
+
+.left-bars .bar {
+    left: -5%;
+}
+
+.right-bars .bar {
+    right: -5%;
+    transform: scaleX(-1);
+}
+
+.bar {
+    height: 150vh;
+    width: 15vw;
+    background-size: contain;
+    position: absolute;
+}
+
+.left-bar-1 {
+    background-image: url('../img/svg-green.svg');
+    top: -10vmax;
+    animation: leftbarimation 30s infinite;
+}
+
+.left-bar-2 {
+    background-image: url('../img/svg-yellow.svg');
+    top: -5vmax;
+    animation: leftbarimation 30s infinite;
+}
+
+.left-bar-3 {
+    background-image: url('../img/svg-gray.svg');
+    top: 0vmax;
+    animation: leftbarimation 30s infinite;
+}
+
+.right-bar-1 {
+    background-image: url('../img/svg-green.svg');
+    top: -10vmax;
+    animation: rightbarimation 30s infinite;
+}
+
+.right-bar-2 {
+    background-image: url('../img/svg-yellow.svg');
+    top: -5vmax;
+    animation: rightbarimation 30s infinite;
+}
+
+.right-bar-3 {
+    background-image: url('../img/svg-gray.svg');
+    top: 0vmax;
+    animation: rightbarimation 30s infinite;
+}
+
+@media only screen and (max-width: 800px) {
+    .bar {
+        width: 25vw;
+    }
+}
+
+@keyframes leftbarimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 0% -100%;
+    }
+}
+
+@keyframes rightbarimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
 }
